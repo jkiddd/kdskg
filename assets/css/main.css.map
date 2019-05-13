@@ -7,7 +7,8 @@
         "../../scss/_misc/_colorvar.scss",
         "../../scss/_misc/_mixnin.scss",
         "../../scss/_misc/_fonts.scss",
-        "../../scss/_misc/_adjusment.scss"
+        "../../scss/_misc/_adjusment.scss",
+        "../../scss/page/_header.scss"
     ],
     "names": [],
     "file": "main.css"
