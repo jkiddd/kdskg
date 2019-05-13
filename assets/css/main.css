@@ -440,29 +440,29 @@ ul {
   min-width: 1190px;
 }
 
-.header {
+.top-line {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #f4f4f4;
 }
 
-.header__flex-container {
+.top-line__flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header__left {
+.top-line__left {
   width: 50%;
 }
 
-.header__left-link {
+.top-line__left-link {
   font-size: 11px;
   color: #7f7d7d;
   font-family: 'robotoregular',Tohoma, sans-serif;
 }
 
-.header__rigth {
+.top-line__rigth {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
