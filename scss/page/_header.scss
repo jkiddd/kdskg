@@ -1,0 +1,62 @@
+.header {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #f4f4f4;
+}
+
+.header__flex-container {
+   display:flex;
+}
+.header__left {
+   width: 50%;
+}
+.header__left-link {
+   font-size: 11px;
+   color: #7f7d7d;
+   @include roboto(regular);   
+}
+.header__rigth {
+   display: flex;
+   width: 50%;
+   justify-content: flex-end;
+}
+.social {
+   display: flex;
+}
+.social__item--margin {
+   margin-right: 10px;
+}
+.social__link-fb {
+   width: 18px;
+   height: 26px;
+   display: block;
+   color: #a39f9f;
+
+}
+.social__link-instagram {
+   width: 26px;
+   height: 26px;
+   display: block;
+   color: #a39f9f;
+}
+.lang {
+   margin-left: 15px;
+}
+.lang__list {
+   display: flex;
+   justify-content: right;
+}
+.lang__link {
+   color: #7f7d7d;
+   font-size: 11px;
+   @include roboto(regular);   
+}
+
+.lang__color:hover {
+   color: #e3a900;
+   text-decoration: underline;
+}
+.lang__activ {
+   color: #e3a900;
+   text-decoration: underline;
+}
