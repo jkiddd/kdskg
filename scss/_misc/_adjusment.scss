@@ -1,6 +1,6 @@
 /* var */
 $footer-heigth:345px;
-$conteiner-min-width:1460px;
+$conteiner-min-width:1170px;
 
 * {
     box-sizing: border-box;
@@ -37,12 +37,15 @@ ul {
 
 .container {
     margin: 0 auto;
-    width: $conteiner-min-width;
+    // width: $conteiner-min-width;
+    max-width:$conteiner-min-width;
 }
+
+// старый способ прибития футера
 
 .wrapper {
     overflow: hidden;
-    // min-width: $conteiner-min-width+20px;
+    min-width: $conteiner-min-width+20px;
     min-height: 100%;
 }
 
@@ -64,23 +67,26 @@ ul {
 background-color: $footer-color;
 height: $footer-heigth;
 margin-top: -$footer-heigth;
-// min-width: $conteiner-min-width+20px;
+min-width: $conteiner-min-width+20px;
 }
 
 
 // ПРИБИТИЕ ФУТЕРА НА ФЛЕКСАХ
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    overflow: hidden;
-    min-width: $conteiner-min-width+20px;
-    position: relative;
-}
-.footer {
-    height: $footer-heigth;
-    background-color: $footer-color;
-    margin-top: auto;
-    min-width: $conteiner-min-width+20px;
-}
+// .wrapper {
+//     display: flex;
+//     flex-direction: column;
+//     min-height: 100vh;
+//     overflow: hidden;
+//     min-width: $conteiner-min-width+20px;
+//     position: relative;
+// }
+// .footer {
+//     height: $footer-heigth;
+//     background-color: $footer-color;
+//     margin-top: auto;
+//     min-width: $conteiner-min-width+20px;
+// }
+
+
+

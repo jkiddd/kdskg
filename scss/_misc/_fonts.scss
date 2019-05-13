@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'robotobold';
-    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    src: url('/assets/fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/roboto-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: optional;
@@ -9,16 +9,16 @@
 }
 @font-face {
     font-family: 'robotoitalic';
-    src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-italic-webfont.woff') format('woff');
+    src: url('/assets/fonts/roboto-italic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/roboto-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: optional;
 }
 @font-face {
     font-family: 'robotolight';
-    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-light-webfont.woff') format('woff');
+    src: url('/assets/fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('/assets/fonts/roboto-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: optional;
@@ -26,8 +26,8 @@
 }
 @font-face {
     font-family: 'robotomedium';
-    src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-medium-webfont.woff') format('woff');
+    src: url('/assets/fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('/assets/fonts/roboto-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: optional;
