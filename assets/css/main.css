@@ -430,13 +430,13 @@ ul {
 .wrapper:after {
   content: "";
   display: block;
-  height: 345px;
+  height: 293px;
 }
 
 .footer {
-  background-color: #1a1918;
-  height: 345px;
-  margin-top: -345px;
+  background-color: #03215c;
+  height: 293px;
+  margin-top: -293px;
   min-width: 1190px;
 }
 /*# sourceMappingURL=main.css.map */
