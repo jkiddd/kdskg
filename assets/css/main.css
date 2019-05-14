@@ -524,4 +524,65 @@ ul {
   color: #e3a900;
   text-decoration: underline;
 }
+
+.header__bottom {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: url("/assets/img/decor/bg__page-title.png");
+}
+
+.header__bottom-flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.header__bottom-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.adress__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.adress__mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.log__pic {
+  width: 160px;
+  height: 106px;
+  display: block;
+}
+
+.phone-icon {
+  width: 11px;
+  height: 11px;
+  color: #006cb5;
+}
+
+.adress__phone-text, .adress__mail-text {
+  color: #4b4949;
+  font-size: 12px;
+  font-family: 'robotoregular',Tohoma, sans-serif;
+}
+
+.mail-icon {
+  color: #006cb5;
+  width: 14px;
+  height: 13px;
+}
 /*# sourceMappingURL=main.css.map */
