@@ -87,10 +87,11 @@
    @include roboto(bold);
    color: #006cb5;
    line-height: 0.82;
+   text-transform: uppercase;
 
 }
 .logo-text__subtitle {
-   font-size: 14px;
+   font-size: 12px;
    @include roboto(bold);
    color: #006cb5;
   

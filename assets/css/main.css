@@ -563,10 +563,11 @@ ul {
   font-weight: bold;
   color: #006cb5;
   line-height: 0.82;
+  text-transform: uppercase;
 }
 
 .logo-text__subtitle {
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'robotobold', Tohoma, sans-serif;
   font-weight: bold;
   color: #006cb5;
