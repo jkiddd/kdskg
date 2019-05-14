@@ -104,6 +104,7 @@
    display: flex;
    align-items: center;
    margin-right: 20px;
+   margin-left: 4px;
 }
 .adress__mail {
    display: flex;
@@ -120,7 +121,7 @@
    color: #006cb5;
    margin-right: 4px;
 }
-.adress__phone-text,.adress__mail-text {
+.address_phone-link,.adress__mail-link {
    color: #4b4949;
    font-size: 12px;
    @include roboto(regular); 
