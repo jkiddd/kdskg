@@ -72,16 +72,31 @@
    display: flex;
    width: 100%;
    justify-content: space-between;
+   align-items: center;
 }
 
-.header__bottom-left {
+.logo-block {
    display: flex;
-   
+   align-items: center;   
 }
+.logo-text {
+   margin-left: 10px;
+}
+.logo-text__title {
+   font-size: 21px;
+   @include roboto(bold);
+   color: #006cb5;
+   line-height: 0.82;
 
+}
+.logo-text__subtitle {
+   font-size: 14px;
+   @include roboto(bold);
+   color: #006cb5;
+  
+}
 .address {
-   display: flex;
-   
+   display: flex;   
 }
 
 .adress__phone {
@@ -153,8 +168,9 @@
 .basket-service {
    border: 2px solid #e5e7e9;
    display: flex;
-   padding: 6px;
+   padding: 8px 15px;
    position: relative;
+   margin-top: 20px;
 }
 .basket-service__text {
    display: flex;
@@ -164,6 +180,9 @@
    color: #7f7e7e;
    border-right: 2px solid #e5e7e9;
    padding-right: 6px;
+}
+.basket-service__pic {
+   margin-left: 6px;
 }
 .basket-service__icon {
    width: 51px;
