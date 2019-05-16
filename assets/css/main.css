@@ -804,7 +804,7 @@ ul {
 
 .sidbar__title {
   background-color: #05328d;
-  padding: 12px 15px;
+  padding: 12px 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -814,7 +814,7 @@ ul {
 }
 
 .sidbar__text {
-  font-size: 14px;
+  font-size: 17px;
   font-family: 'robotobold', Tohoma, sans-serif;
   font-weight: bold;
   color: white;
@@ -827,9 +827,19 @@ ul {
   color: white;
 }
 
+.sidbar__nav {
+  margin-bottom: 49px;
+}
+
+.sidbar__list {
+  border-left: 1px solid #929292;
+  border-right: 1px solid #929292;
+}
+
 .sidbar__item {
   background: #f4f4f4;
-  padding: 12px 15px;
+  padding: 12px 14px;
+  border-bottom: 1px solid #929292;
 }
 
 .sidbar__link {
@@ -849,6 +859,8 @@ ul {
 
 .sidbar--color {
   color: #6f6a6a;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: 'robotolight',Tohoma,sans-serif;
+  font-weight: 300;
 }
 /*# sourceMappingURL=main.css.map */
