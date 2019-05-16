@@ -1,11 +1,17 @@
 
 
-
+.sidbar-block {
+   width: 270px;
+}
 
 .sidbar__title {
    background-color: #05328d;
 }
-
+.sidbar__text {
+   font-size: 14px;
+   @include roboto(bold);
+   color: white;
+}
 .sidbar-title__icon {
    width: 17px;
    height: 17px;

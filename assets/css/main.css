@@ -797,8 +797,19 @@ ul {
           transform: scaleX(1);
 }
 
+.sidbar-block {
+  width: 270px;
+}
+
 .sidbar__title {
   background-color: #05328d;
+}
+
+.sidbar__text {
+  font-size: 14px;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
+  color: white;
 }
 
 .sidbar-title__icon {
