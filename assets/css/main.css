@@ -976,4 +976,41 @@ ul {
   font-size: 14;
   color: #e3a900;
 }
+
+.new__item {
+  margin-bottom: 53px;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.06);
+}
+
+.new__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.new-desc__block {
+  padding: 20px;
+}
+
+.new__pic {
+  width: 364px;
+  height: 268px;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.new-desc__title {
+  color: #000;
+  font-size: 16px;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.new-desc__text {
+  font-size: 14px;
+  color: #000;
+}
 /*# sourceMappingURL=main.css.map */
