@@ -6,14 +6,38 @@
 
 .sidbar__title {
    background-color: #05328d;
+   padding: 12px 15px;
+   display: flex;
+   align-items: center;
 }
 .sidbar__text {
    font-size: 14px;
    @include roboto(bold);
    color: white;
+   margin-left: 9px;
 }
 .sidbar-title__icon {
    width: 17px;
    height: 17px;
    color: white;
+}
+.sidbar__item {
+   background: #f4f4f4;
+   padding: 12px 15px;
+   
+}
+.sidbar__link {
+   display: flex;
+   align-items: center;
+}
+.sidbar-title__icon-caret {
+   width: 12px;
+   height: 18px;
+   color: #6f6a6a;
+}
+.sidbar--color {
+   color: #6f6a6a;
+   font-size: 15px;
+
+
 }
