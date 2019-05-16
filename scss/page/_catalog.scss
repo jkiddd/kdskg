@@ -1,0 +1,10 @@
+.title-block {
+border-bottom: 1px solid #929292;
+margin-bottom: 15px;
+}
+
+.title {
+   color: #6f6a6a;
+   font-size: 30px;
+   @include roboto(bold);
+}
