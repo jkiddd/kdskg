@@ -798,6 +798,15 @@ ul {
           transform: scaleX(1);
 }
 
+.content-block__flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .sidbar-block {
   width: 270px;
 }
@@ -862,5 +871,28 @@ ul {
   font-size: 14px;
   font-family: 'robotolight',Tohoma,sans-serif;
   font-weight: 300;
+}
+
+.slaider__wrapper {
+  width: 875px;
+  height: 317px;
+  position: relative;
+}
+
+.slaider__pic {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.slaider__title {
+  font-size: 36px;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  left: 54px;
 }
 /*# sourceMappingURL=main.css.map */
