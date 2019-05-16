@@ -807,8 +807,12 @@ ul {
           justify-content: space-between;
 }
 
+.main-content {
+  width: 75%;
+}
+
 .sidbar-block {
-  width: 270px;
+  width: 23%;
 }
 
 .sidbar__title {
@@ -910,5 +914,40 @@ ul {
   font-size: 30px;
   font-family: 'robotobold', Tohoma, sans-serif;
   font-weight: bold;
+}
+
+.catalog__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.catalog__item {
+  margin-left: 29px;
+  margin-bottom: 40px;
+}
+
+.catalog__item:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.catalog__pic {
+  width: 273px;
+  height: 250px;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.catalog__text {
+  font-size: 18px;
+  color: #6f6a6a;
+  font-family: 'robotomedium',Tohoma,sans-serif;
 }
 /*# sourceMappingURL=main.css.map */

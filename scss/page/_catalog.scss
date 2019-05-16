@@ -8,3 +8,31 @@ margin-bottom: 15px;
    font-size: 30px;
    @include roboto(bold);
 }
+
+// стилизация каталого услуг 
+
+.catalog__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+.catalog__item {
+   margin-left: 29px;
+   margin-bottom: 40px;
+}
+.catalog__item:nth-child(3n+1){
+   margin-left: 0;
+}
+.catalog__pic {
+   width: 273px;
+   height: 250px;
+   display: block;
+   object-fit: cover;
+   margin-bottom: 15px;
+}
+
+.catalog__text {
+font-size: 18px;
+color: #6f6a6a;
+@include roboto(medium);
+}
