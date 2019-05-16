@@ -950,4 +950,30 @@ ul {
   color: #6f6a6a;
   font-family: 'robotomedium',Tohoma,sans-serif;
 }
+
+.new-title {
+  border-bottom: 1px solid #929292;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.new-title__start {
+  font-size: 30px;
+  color: #6f6a6a;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
+}
+
+.new-title__block {
+  margin-left: auto;
+  margin-top: auto;
+  padding-bottom: 4px;
+}
+
+.new-title__link {
+  font-size: 14;
+  color: #e3a900;
+}
 /*# sourceMappingURL=main.css.map */
