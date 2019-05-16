@@ -796,4 +796,14 @@ ul {
       -ms-transform: scaleX(1);
           transform: scaleX(1);
 }
+
+.sidbar__title {
+  background-color: #05328d;
+}
+
+.sidbar-title__icon {
+  width: 17px;
+  height: 17px;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
