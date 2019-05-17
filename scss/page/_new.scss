@@ -1,3 +1,6 @@
+.new {
+   margin-bottom: 70px;
+}
 .new-title {
         border-bottom: 1px solid #929292;
       margin-bottom: 30px;   
@@ -20,7 +23,7 @@
 // стилизация списка новостей 
 
 .new__item {
-   margin-bottom: 53px;
+   margin-bottom: 40px;
    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.06);
     -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.06);
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.06);
@@ -31,7 +34,12 @@ display: flex;
 }
 
 .new-desc__block {
-   padding: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   display: flex;
+    flex-direction: column;
 }
 .new__pic {
    width: 364px;
@@ -39,9 +47,6 @@ display: flex;
    display: block;
    object-fit: cover;
 }
-
-
-
 .new-desc__title {
    color: #000;
    font-size: 16px;
@@ -52,4 +57,24 @@ display: flex;
    font-size: 14px;
    @include roboto(ligth);
    color: #000;
+   overflow: hidden;
+   max-height: 77px;   
+}
+.new-desc__bottom {
+   display: flex;
+   margin-top: auto;
+}
+.new-desc__bottom-span {
+   margin-left: auto;
+}
+.new-desc__data {
+   display: flex;
+}
+.new-desc__data-text {
+   font-size: 14px;
+   color: #000;
+}
+.new-desc__bottom-span {
+   font-size: 14px;
+   color: #e3a900;
 }
