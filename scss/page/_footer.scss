@@ -53,6 +53,7 @@
    font-size:20px;
    color: white;
    @include roboto(medium);
+   margin-bottom: 15px;
 }
 .footer-service__item {
    border-bottom: 1px solid rgba(234, 234, 234, .1);
