@@ -1060,4 +1060,54 @@ ul {
 .slaider-bottom {
   margin-bottom: 50px;
 }
+
+.footer__wrap {
+  padding-top: 49px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo-dipservice {
+  margin-bottom: 30px;
+}
+
+.footer__left {
+  width: 33.3%;
+}
+
+.logo--footer {
+  width: 82px;
+  height: 69px;
+}
+
+.footer--text {
+  color: white;
+  font-size: 16px;
+  font-family: 'robotomedium',Tohoma,sans-serif;
+  margin-bottom: 5px;
+}
+
+.footer--text-subtitle {
+  color: white;
+  font-size: 10px;
+}
+
+.logo--mid {
+  width: 73px;
+  height: 73px;
+}
+
+.footer--text-mid {
+  color: white;
+  font-size: 16px;
+  line-height: 0.99;
+  width: 258px;
+  margin-bottom: 10px;
+}
+
+.footer--text-subtitle-mid {
+  color: #9a9b9b;
+}
 /*# sourceMappingURL=main.css.map */
