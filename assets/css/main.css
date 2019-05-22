@@ -1061,6 +1061,15 @@ ul {
   margin-bottom: 50px;
 }
 
+.footer__left, .footer__middle, .footer__middle-double, .footer__right {
+  width: 25%;
+  margin-right: 10px;
+}
+
+.footer__rigth:last-child {
+  margin-right: none;
+}
+
 .footer__wrap {
   padding-top: 49px;
   padding-bottom: 30px;
@@ -1087,6 +1096,7 @@ ul {
 .footer--text {
   color: white;
   font-size: 16px;
+  letter-spacing: 2px;
   font-family: 'robotomedium',Tohoma,sans-serif;
   margin-bottom: 5px;
 }
@@ -1103,8 +1113,8 @@ ul {
 
 .footer--text-mid {
   color: white;
-  font-size: 16px;
-  line-height: 0.99;
+  font-size: 15px;
+  line-height: 1.25;
   width: 258px;
   margin-bottom: 10px;
 }

@@ -1,3 +1,11 @@
+.footer__left,.footer__middle,.footer__middle-double,.footer__right {
+   width: 25%;
+   margin-right: 10px;
+}
+.footer__rigth:last-child{
+   margin-right: none;
+}
+
 .footer__wrap {
    padding-top: 49px;
    padding-bottom: 30px;
@@ -19,6 +27,7 @@
 .footer--text {
    color: white;
    font-size: 16px;
+   letter-spacing: 2px;
    @include roboto(medium);
    margin-bottom: 5px;
 }
@@ -32,8 +41,8 @@
 }
 .footer--text-mid {
    color: white;
-   font-size: 16px;
-   line-height: 0.99;
+   font-size: 15px;
+   line-height: 1.25;
    width: 258px;
    margin-bottom: 10px;
 }
