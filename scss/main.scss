@@ -14,10 +14,13 @@
 @import 'page/nav';
 @import 'page/main-content';
 @import 'page/aside';
-@import 'page/slaider';
+
 @import 'page/catalog';
 @import 'page/new';
 @import 'page/slaider-bottom';
 
 @import 'page/footer';
 
+// слайдеры 
+
+@import 'page/_slaider';
