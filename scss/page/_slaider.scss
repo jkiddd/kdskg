@@ -26,5 +26,14 @@
    z-index: 5; 
 }
 .slick-next {
-   right: 10px;
+   right: 13px;
+}
+.slick-dots {
+   bottom: -30px;
+}
+.slick-dots li button:before {
+   font-size: 14px;
+}
+.slick-dots li button:before {
+   color: #05328d;
 }
