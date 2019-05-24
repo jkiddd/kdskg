@@ -74,10 +74,16 @@
    justify-content: space-between;
    align-items: center;
 }
-
+.header__bottom-midlle {
+   display: flex;
+   flex-direction: column;
+   flex: 0 1 45%;
+   margin-right: 20px;
+}
 .logo-block {
    display: flex;
-   align-items: center;   
+   align-items: center;
+   margin-right: 20px;   
 }
 .logo-text {
    margin-left: 10px;
@@ -136,9 +142,12 @@
 .search {
    position: relative;
    margin-top: 5px;
+
+   
 }
 .search__input {  
-   width: 466px;
+   // width: 466px;
+   width: 100%;
    padding-top: 15px;
    padding-bottom: 15px;
    border-radius: 10px;

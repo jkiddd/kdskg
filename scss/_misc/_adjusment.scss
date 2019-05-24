@@ -39,13 +39,15 @@ ul {
     margin: 0 auto;
     // width: $conteiner-min-width;
     max-width:$conteiner-min-width;
+    width: 100%;
+    padding: 0 3%;
 }
 
 // старый способ прибития футера
 
 .wrapper {
     overflow: hidden;
-    min-width: $conteiner-min-width+20px;
+    // min-width: $conteiner-min-width+20px;
     min-height: 100%;
 }
 
@@ -66,7 +68,7 @@ ul {
 background-color: $footer-color;
 height: $footer-heigth;
 margin-top: -$footer-heigth;
-min-width: $conteiner-min-width+20px;
+// min-width: $conteiner-min-width+20px;
 }
 
 

@@ -420,11 +420,12 @@ ul {
 .container {
   margin: 0 auto;
   max-width: 1170px;
+  width: 100%;
+  padding: 0 3%;
 }
 
 .wrapper {
   overflow: hidden;
-  min-width: 1190px;
   min-height: 100%;
 }
 
@@ -438,7 +439,6 @@ ul {
   background-color: #03215c;
   height: 293px;
   margin-top: -293px;
-  min-width: 1190px;
 }
 
 /* Slider */
@@ -817,6 +817,20 @@ ul {
           align-items: center;
 }
 
+.header__bottom-midlle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 45%;
+          flex: 0 1 45%;
+  margin-right: 20px;
+}
+
 .logo-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -824,6 +838,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 20px;
 }
 
 .logo-text {
@@ -904,7 +919,7 @@ ul {
 }
 
 .search__input {
-  width: 466px;
+  width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 10px;
@@ -1486,5 +1501,56 @@ ul {
 
 .slick-dots li button:before {
   color: #05328d;
+}
+
+@media screen and (max-width: 992px) {
+  .logo-block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .logo {
+    margin-bottom: 10px;
+  }
+  .log__pic {
+    width: 143px;
+    height: 94px;
+  }
+  .logo-text__title {
+    font-size: 18px;
+  }
+  .logo-text__subtitle {
+    font-size: 10px;
+  }
+  .header__bottom-midlle, .header__bottom-rigth {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .basket-service__text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-block {
+    display: none;
+  }
+  .header__bottom-midlle {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .basket-service__text {
+    display: none;
+  }
+  .basket-service__pic {
+    margin-left: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */
