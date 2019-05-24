@@ -127,7 +127,9 @@ flex-grow: 1;
 
 @media screen and (max-width: 375px){
 //  верхнее меню
-
+.header__bottom-rigth {
+  display: none;
+}
 .address {
   flex-direction: column;
   align-items: center; 

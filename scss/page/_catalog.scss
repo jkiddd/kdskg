@@ -17,19 +17,19 @@ margin-bottom: 15px;
    justify-content: space-around;
 }
 .catalog__item {
-   flex-basis: 1 1 auto;
-   
+   flex: 1 1 30%;
+   margin-left: 10px;
    margin-bottom: 40px;
-   
+   // max-width: 273px;
 }
 
 .catalog__item:nth-child(3n+1){
  
 }
 .catalog__link {
-   max-width: 273px;
-   height: 250px;
-   display: block;
+   // max-width: 273px;
+   // max-height: 250px;
+   
 }
 .catalog__pic {
    width: 100%;
@@ -37,6 +37,8 @@ margin-bottom: 15px;
    display: block;
    object-fit: cover;
    margin-bottom: 15px;
+   // max-width: 273px;
+   // height: 250px
 }
 
 .catalog__text {
