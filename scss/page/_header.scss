@@ -6,9 +6,10 @@
 
 .top-line__flex-container {
    display:flex;
+   justify-content: space-between;
 }
 .top-line__left {
-   width: 50%;
+   margin-left: 5px;
 }
 .top-line__left-link {
    font-size: 11px;
@@ -17,8 +18,7 @@
 }
 .top-line__rigth {
    display: flex;
-   width: 50%;
-   justify-content: flex-end;
+   
 }
 .social {
    display: flex;
@@ -77,7 +77,7 @@
 .header__bottom-midlle {
    display: flex;
    flex-direction: column;
-   flex: 0 1 45%;
+   flex: 0 1 43%;
    margin-right: 20px;
 }
 .logo-block {
@@ -191,6 +191,7 @@
    color: #7f7e7e;
    border-right: 2px solid #e5e7e9;
    padding-right: 6px;
+   min-width: 102px;
 }
 .basket-service__pic {
    margin-left: 6px;

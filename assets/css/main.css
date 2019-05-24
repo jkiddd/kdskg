@@ -723,10 +723,13 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .top-line__left {
-  width: 50%;
+  margin-left: 5px;
 }
 
 .top-line__left-link {
@@ -739,10 +742,6 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .social {
@@ -826,8 +825,8 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 45%;
-          flex: 0 1 45%;
+      -ms-flex: 0 1 43%;
+          flex: 0 1 43%;
   margin-right: 20px;
 }
 
@@ -972,6 +971,7 @@ ul {
   color: #7f7e7e;
   border-right: 2px solid #e5e7e9;
   padding-right: 6px;
+  min-width: 102px;
 }
 
 .basket-service__pic {
@@ -1539,6 +1539,9 @@ ul {
   .basket-service__text {
     text-align: center;
   }
+  .nav__animate {
+    font-size: 17px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1555,6 +1558,62 @@ ul {
   }
   .basket-service__pic {
     margin-left: 0;
+  }
+  .sidbar-block {
+    display: none;
+    width: 0;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .slaider__wrapper {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top-line {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  .sidbar-block {
+    display: none;
+    width: 0;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .slaider__wrapper {
+    height: 250px;
+  }
+  .title-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .catalog__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .catalog__item {
+    margin-left: 0;
+  }
+  .catalog__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=main.css.map */
