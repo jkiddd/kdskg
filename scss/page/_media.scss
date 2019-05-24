@@ -125,7 +125,25 @@ flex-grow: 1;
   // конец стилей медия
 }  
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 375px){
+//  верхнее меню
 
+.address {
+  flex-direction: column;
+  align-items: center; 
+}
+.adress__phone {
+  margin: 0;
+}
+
+//  слайдер
+  .slaider__title {
+    font-size: 22px;
+    bottom: 45px;
+    left: 15px;
+}
+.slaider__wrapper {
+  height: 190px;
+}
   // конец стилей медия
 }  
