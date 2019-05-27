@@ -75,6 +75,7 @@ flex-grow: 1;
   height: 250px;
 }
 
+//  каталог 
 
 
 // конец стилей медия
@@ -83,7 +84,7 @@ flex-grow: 1;
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 576px){
 .top-line {
   display: none;
 }
@@ -100,8 +101,14 @@ flex-grow: 1;
 .slaider__wrapper {
   height: 250px;
 }
-
-
+.catalog__item {
+  max-width: 300px;  
+}
+.slaider__title {
+  font-size: 25px;
+  bottom: 40px;
+  left: 21px;
+}
 // контентая часть 
 
 .title-block {
@@ -146,6 +153,10 @@ flex-grow: 1;
 }
 .slaider__wrapper {
   height: 190px;
+}
+
+.catalog__item {
+  max-width: 230px;
 }
   // конец стилей медия
 }  
