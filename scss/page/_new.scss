@@ -45,10 +45,12 @@
    padding-bottom: 10px;
    display: flex;
    flex-direction: column;
+   flex-basis:60%;
 }
 .new__wrapper-pic {
-   width: 364px;
-   height: 268px; 
+   max-width: 364px;
+   max-height: 268px;
+   flex-basis: 40%;
 }
 .new__pic {
    width: 100%;
@@ -69,6 +71,7 @@
    color: #000;
    overflow: hidden;
    max-height: 77px;
+   margin-bottom: 10px;
 }
 
 .new-desc__bottom {

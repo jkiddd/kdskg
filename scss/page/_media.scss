@@ -75,8 +75,14 @@ flex-grow: 1;
   height: 250px;
 }
 
-//  каталог 
+// новости 
+.new-desc__block {
+  flex-basis: 70%;  
+}
 
+.new__wrapper-pic {
+  flex-basis: 30%;
+}
 
 // конец стилей медия
 }
@@ -128,7 +134,20 @@ flex-grow: 1;
 .catalog__text {
 
   display: flex;
-  justify-content: center;}
+  justify-content: center;
+}
+
+// новости 
+.new__wrapper-pic {
+  display: none;
+}
+.new__pic {
+  display: none;
+}
+.new-desc__block {
+  flex-basis: 100%;
+  text-align: justify; 
+}
   // конец стилей медия
 }  
 
