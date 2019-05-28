@@ -91,12 +91,81 @@ flex-grow: 1;
 
 
 @media screen and (max-width: 576px){
-.top-line {
-  display: none;
+// мобильное меню
+.button__humberger {
+  display: block;
 }
+.mobile_line {
+  display: block;
+}
+
 .nav {
+ 
+  z-index: 999;
+  background-color: rgba(0,0,0,0.8);
+  height: 100%; 
+  width: 100%; 
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+
+  
+}
+.nav__list {
+  flex-direction: column;
+  margin-top: 10%;
+  margin: 0 auto;
+}
+.nav__item  {
+  border:none;
+
+}
+.nav__item:first-child {
+  border-left:none;
+}
+.nav__activ {
+
+  transform: translateX(0%); 
+  transition: 0.2s;
+}
+// кнопка крестик
+.close--nav {
+  z-index: 999;
+  right: 0px;
+  top: 10px;
+}
+.close--nav {
+  position: absolute;
+  right: 5px;
+  top: 8px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.close--nav:hover {
+  opacity: 1;
+}
+.close--nav:before,
+.close--nav:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 20px;
+  width: 2px;
+  background-color: #fff;
+}
+.close--nav:before {
+  transform: rotate(45deg);
+}
+.close--nav:after {
+  transform: rotate(-45deg);
+}
+
+  .top-line {
   display: none;
 }
+
 .sidbar-block {
   display: none;
   width:0;
