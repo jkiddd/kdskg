@@ -1559,7 +1559,8 @@ ul {
   .logo-text__subtitle {
     font-size: 10px;
   }
-  .header__bottom-midlle, .header__bottom-rigth {
+  .header__bottom-midlle,
+  .header__bottom-rigth {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1734,6 +1735,10 @@ ul {
   .new__wrapper-pic {
     display: none;
   }
+  .new__item {
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+  }
   .new__pic {
     display: none;
   }
@@ -1742,11 +1747,17 @@ ul {
         flex-basis: 100%;
     text-align: justify;
   }
+  .logo {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 375px) {
   .header__bottom-rigth {
     display: none;
+  }
+  .header__bottom-midlle {
+    margin-right: 0;
   }
   .address {
     -webkit-box-orient: vertical;
