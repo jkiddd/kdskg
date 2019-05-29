@@ -1634,6 +1634,13 @@ ul {
   .social--color {
     color: white;
   }
+  .nav__logo-text {
+    font-size: 14px;
+    font-family: 'robotobold', Tohoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+  }
   .nav {
     z-index: 999;
     background-color: rgba(0, 0, 0, 0.8);

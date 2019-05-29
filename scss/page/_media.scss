@@ -123,6 +123,12 @@
   .social--color {
     color: white;
   }
+  .nav__logo-text {
+    font-size: 14px;
+    @include roboto(bold);
+    color: white;
+    letter-spacing: 2px;
+  }
   .nav {
 
     z-index: 999;
