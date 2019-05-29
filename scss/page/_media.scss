@@ -45,7 +45,12 @@
   .nav__animate {
     font-size: 17px;
   }
+/* футер */
 
+.logo--footer {
+  width: 82px;
+  height: 69px
+}
   // конец стилей медия
 }
 
@@ -127,7 +132,7 @@
   .nav__list {
     flex-direction: column;
     margin-top: 10%;
-    margin: 0 auto;
+   
   }
 
   .nav__item {
@@ -217,12 +222,12 @@
     display: flex;
     justify-content: center;
   }
-
+// Каталог
 
   .catalog__list {
     flex-direction: column;
     align-content: center;
-    
+    align-items: center;    
   }
 
   .catalog__item {
@@ -230,7 +235,6 @@
   }
 
   .catalog__text {
-
     display: flex;
     justify-content: center;
   }
@@ -258,9 +262,7 @@
 
   // подвал сайта 
 
-  .logo {
-    display: none;
-  }
+  
 }
 
 @media screen and (max-width: 375px) {
@@ -295,6 +297,10 @@
   .catalog__item {
     max-width: 230px;
   }
+
+.footer {
+  display: none;
+}
 
   // конец стилей медия
 }
