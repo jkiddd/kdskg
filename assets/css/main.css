@@ -1620,6 +1620,20 @@ ul {
   .mobile_line {
     display: block;
   }
+  .nav__humberger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .social--color {
+    color: white;
+  }
   .nav {
     z-index: 999;
     background-color: rgba(0, 0, 0, 0.8);

@@ -115,7 +115,14 @@
   .mobile_line {
     display: block;
   }
-
+  .nav__humberger {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .social--color {
+    color: white;
+  }
   .nav {
 
     z-index: 999;
