@@ -109,9 +109,13 @@
   }
   .logo-block--mobile {
     display: flex;
+ 
   }
   .logo-text__title {
     font-size: 14px;
+}
+.footer--text {
+  font-size: 15px;
 }
   // конец стилей медия
 }
@@ -316,6 +320,10 @@
     margin-bottom: 7%;
     text-align: center;
   } 
+  .logo-block--mobile {
+  
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 375px) {

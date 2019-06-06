@@ -1649,6 +1649,9 @@ body {
   .logo-text__title {
     font-size: 14px;
   }
+  .footer--text {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1848,6 +1851,12 @@ body {
     margin-right: 0;
     margin-bottom: 7%;
     text-align: center;
+  }
+  .logo-block--mobile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
