@@ -1370,6 +1370,9 @@ body {
 }
 
 .footer__left, .footer__middle, .footer__middle-double, .footer__right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
   margin-right: 10px;
 }
 
@@ -1596,6 +1599,12 @@ body {
   }
   .footer__left {
     margin-bottom: 5%;
+  }
+  .logo-block--mobile {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 
