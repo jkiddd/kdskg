@@ -55,8 +55,9 @@
 .footer-title {
    font-size:20px;
    color: white;
-   @include roboto(medium);
+   @include roboto(bold);
    margin-bottom: 15px;
+   color: #e3a900;
 }
 .footer-service__item {
    border-bottom: 1px solid rgba(234, 234, 234, .1);
@@ -65,7 +66,7 @@
 }
 .footer-service__text {
    color: white;
-   @include roboto(bold);
+   @include roboto(medium);
    font-size: 14px;
   
 }

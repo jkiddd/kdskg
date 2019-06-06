@@ -1439,8 +1439,10 @@ body {
 .footer-title {
   font-size: 20px;
   color: white;
-  font-family: 'robotomedium',Tohoma,sans-serif;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
   margin-bottom: 15px;
+  color: #e3a900;
 }
 
 .footer-service__item {
@@ -1450,8 +1452,7 @@ body {
 
 .footer-service__text {
   color: white;
-  font-family: 'robotobold', Tohoma, sans-serif;
-  font-weight: bold;
+  font-family: 'robotomedium',Tohoma,sans-serif;
   font-size: 14px;
 }
 
@@ -1828,9 +1829,6 @@ body {
   }
   .footer--text-mid {
     max-width: 258px;
-  }
-  .footer-title {
-    color: #e3a900;
   }
   .footer-service__link {
     -webkit-box-pack: center;
