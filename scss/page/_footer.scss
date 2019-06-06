@@ -1,5 +1,5 @@
 .footer__left,.footer__middle,.footer__middle-double,.footer__right {
-   width: 25%;
+
    margin-right: 10px;
 }
 .footer__right:last-child{
@@ -10,14 +10,17 @@
    padding-top: 49px;
    padding-bottom: 30px;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
+   flex-wrap: wrap;
    
 }
 .logo-dipservice {
    margin-bottom: 30px;
 }
 .footer__left {
-   width: 33.3%;
+   flex-basis: 23%;
+    /* max-width: 30%; */
+    margin-right: 2%;
 }
 .logo--footer {
    width: 82px;
@@ -43,7 +46,7 @@
    color: white;
    font-size: 15px;
    line-height: 1.25;
-   width: 258px;
+   min-width: 258px;
    margin-bottom: 10px;
 }
 .footer--text-subtitle-mid {

@@ -22,7 +22,10 @@
     width: 143px;
     height: 94px;
   }
-
+  .logo--mid {
+    width: 73px;
+    height: 73px;
+}
   .logo-text__title {
     font-size: 18px;
   }
@@ -50,6 +53,9 @@
 .logo--footer {
   width: 82px;
   height: 69px
+}
+.footer__left {
+  margin-bottom: 5%;
 }
   // конец стилей медия
 }
@@ -98,7 +104,12 @@
   .new__wrapper-pic {
     flex-basis: 30%;
   }
-
+  .logo-block--mobile {
+    display: flex;
+  }
+  .logo-text__title {
+    font-size: 14px;
+}
   // конец стилей медия
 }
 
@@ -274,8 +285,36 @@
 
 
   // подвал сайта 
+  .footer__wrap {
+    flex-direction: column;
+  }
+  .footer__left {
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+  }
 
-  
+.footer--text-mid {  
+  flex-basis: 50%;
+} 
+.logo-text {
+  margin-left: 0; 
+}
+.footer--text-mid {
+
+  max-width: 258px;
+}
+.footer-title {
+  color: #e3a900;
+}
+.footer-service__link {
+  justify-content: center;
+}
+  .footer__middle,.footer__middle-double, .footer__right {
+    margin-right: 0;
+    margin-bottom: 7%;
+    text-align: center;
+  } 
 }
 
 @media screen and (max-width: 375px) {
@@ -311,9 +350,7 @@
     max-width: 230px;
   }
 
-.footer {
-  display: none;
-}
+
 
   // конец стилей медия
 }
