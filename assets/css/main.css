@@ -1450,7 +1450,8 @@ body {
 
 .footer-service__text {
   color: white;
-  font-family: 'robotomedium',Tohoma,sans-serif;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
   font-size: 14px;
 }
 
