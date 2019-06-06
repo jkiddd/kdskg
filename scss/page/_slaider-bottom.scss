@@ -2,9 +2,8 @@
    margin-bottom: 50px;
 }
 .slaider-bottom__pic {
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
+   max-width: 100%; 
+ 
 }
 .slaider-bottom__block {
    width: 880px;
