@@ -1,7 +1,21 @@
 .main-content__text {
-   margin-bottom: 30px;
+   margin-bottom: 40px;
 }
 .main-content__text p {
-   line-height: 1.82;
-   
+   line-height: 1.82;   
+}
+.main-content__btn {
+   margin-bottom: 30px;
+   display: flex;
+   justify-content: flex-end;
+}
+.main-btn {
+   background: #05328d;
+   color: white;
+   border: none;
+   outline: none;
+   padding: 15px 30px;
+   font-size: 18px;
+   @include roboto(bold);
+   cursor: pointer;
 }
