@@ -1,0 +1,28 @@
+.service-item {
+   margin-bottom: 30px;
+}
+
+.title--margin {
+   margin-bottom: 15px;
+}
+
+.service-item__item {
+   margin-bottom:15px;
+   
+}
+.service-item__link {
+   display: flex;
+   align-items: center;
+}
+.service-item__text {
+font-size: 22px;
+@include roboto(bold);
+color: #05328d;
+}
+
+.service-item--color {
+   width: 17px;
+   height: 25px;
+   color: #05328d;
+   margin-right: 5px;  
+}

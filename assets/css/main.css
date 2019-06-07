@@ -1540,6 +1540,49 @@ body {
   color: #e3a900;
 }
 
+.service-item {
+  margin-bottom: 30px;
+}
+
+.title--margin {
+  margin-bottom: 15px;
+}
+
+.service-item__item {
+  margin-bottom: 15px;
+}
+
+.service-item__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service-item__text {
+  font-size: 22px;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
+  color: #05328d;
+}
+
+.service-item--color {
+  width: 17px;
+  height: 25px;
+  color: #05328d;
+  margin-right: 5px;
+}
+
+.main-content__text {
+  margin-bottom: 30px;
+}
+
+.main-content__text p {
+  line-height: 1.82;
+}
+
 .slaider {
   margin-bottom: 35px;
 }
