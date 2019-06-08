@@ -31,8 +31,13 @@
 .sidbar__item {
    background: #f4f4f4;
    padding: 12px 14px;
-   border-bottom: 1px solid #929292; 
-   
+   border-bottom: 1px solid #929292;
+   transition: 300ms; 
+   &:hover {
+      background-color:rgba(#006cb5,.5);
+      
+
+   }
 }
 .sidbar__link {
    display: flex;

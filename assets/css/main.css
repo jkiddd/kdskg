@@ -1173,6 +1173,13 @@ body {
   background: #f4f4f4;
   padding: 12px 14px;
   border-bottom: 1px solid #929292;
+  -webkit-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+.sidbar__item:hover {
+  background-color: rgba(0, 108, 181, 0.5);
 }
 
 .sidbar__link {
