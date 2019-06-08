@@ -10,12 +10,42 @@
    justify-content: flex-end;
 }
 .main-btn {
+  
    background: #05328d;
    color: white;
    border: none;
    outline: none;
-   padding: 15px 30px;
-   font-size: 18px;
-   @include roboto(bold);
+   padding: 12px 24px;
+   font-size: 16px;
+   font-family: 'robotobold', Tohoma, sans-serif;
+   font-weight: bold;
    cursor: pointer;
+   z-index: 1;
+  position: relative; 
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
 }
+
+.main-btn::before {
+   content: '';
+   z-index: -1;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 1em;
+   height: 1em;
+   border-radius: 50%;
+   background-color: #e3a900;
+   transform-origin: center;
+   transform: translate(-50%, -50%) scale(0);
+   transition: transform 0.45s ease-in-out;
+ }
+ 
+ .main-btn:hover {
+   cursor: pointer;
+   color: #161616;
+ }
+ 
+ .main-btn:hover::before {
+   transform: translate(-50%, -50%) scale(15);
+ }
