@@ -1742,6 +1742,8 @@ body {
       flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 35px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .partners-block__pic {
