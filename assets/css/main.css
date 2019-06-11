@@ -818,6 +818,14 @@ body {
   color: #e3a900;
 }
 
+.main-content__text {
+  margin-bottom: 40px;
+}
+
+.main-content__text p {
+  line-height: 1.82;
+}
+
 .top-line {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1653,14 +1661,6 @@ body {
   height: 25px;
   color: #05328d;
   margin-right: 5px;
-}
-
-.main-content__text {
-  margin-bottom: 40px;
-}
-
-.main-content__text p {
-  line-height: 1.82;
 }
 
 .main-content__btn {
