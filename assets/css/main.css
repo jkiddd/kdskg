@@ -826,6 +826,11 @@ body {
   line-height: 1.82;
 }
 
+.main-content__text img {
+  float: left;
+  margin-right: 10px;
+}
+
 .top-line {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1727,6 +1732,32 @@ body {
 
 .new--margin-bottom {
   margin-bottom: 35px;
+}
+
+.partners-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.partners-block__pic {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.partners-block__link {
+  display: block;
+  width: 255px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.partners-block__img {
+  width: 100%;
 }
 
 .slaider {

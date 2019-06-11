@@ -1,0 +1,20 @@
+.partners-block {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 20px;
+   margin-bottom: 35px;
+}
+.partners-block__pic {
+   margin-top: 10px;
+   margin-bottom: 5px;
+   
+}
+.partners-block__link {
+   display: block;
+   width: 255px;  
+   object-fit: cover;
+}
+.partners-block__img {
+   width: 100%;
+   
+}
