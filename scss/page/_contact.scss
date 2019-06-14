@@ -30,12 +30,14 @@
 // стилазиции формы
 
 .form-feedback {
+   margin-bottom: 50px;
+}
+.form-feedback__flexcontainer{
    display: flex;
    margin: 0 -.9em;
    justify-content: space-between;
    flex-wrap: wrap;
 }
-
 .form-feedback__field {
    display: flex;
    flex-direction: column;  
@@ -60,5 +62,6 @@
    padding-right: 10px;
    padding-bottom: 30px;
    border-color: #05328d;
-   outline: none; 
+   outline: none;  
+   margin-bottom: 10px; 
 }

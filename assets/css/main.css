@@ -1802,6 +1802,10 @@ body {
 }
 
 .form-feedback {
+  margin-bottom: 50px;
+}
+
+.form-feedback__flexcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1850,6 +1854,7 @@ body {
   padding-bottom: 30px;
   border-color: #05328d;
   outline: none;
+  margin-bottom: 10px;
 }
 
 .slaider {
