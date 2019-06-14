@@ -15,11 +15,13 @@
    @include roboto(bold);
    color: white;
    margin-left: 9px;
+  
 }
 .sidbar-title__icon {
    width: 17px;
    height: 17px;
    color: white;
+   
 }
 .sidbar__nav {
    margin-bottom: 49px;
@@ -34,10 +36,11 @@
    border-bottom: 1px solid #929292;
    transition: 300ms; 
    &:hover {
-      background-color:rgba(#006cb5,.5);
-      
+      border-left: 5px solid #05328D;
+      padding-right: 5px;      
+  }
 
-   }
+   
 }
 .sidbar__link {
    display: flex;
@@ -47,6 +50,7 @@
    width: 12px;
    height: 18px;
    color: #6f6a6a;
+  
 }
 .sidbar--color {
    color: #6f6a6a;

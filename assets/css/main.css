@@ -1265,7 +1265,8 @@ body {
 }
 
 .sidbar__item:hover {
-  background-color: rgba(0, 108, 181, 0.5);
+  border-left: 5px solid #05328D;
+  padding-right: 5px;
 }
 
 .sidbar__link {
