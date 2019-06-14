@@ -1,0 +1,27 @@
+.contacts-block {
+   margin-bottom: 70px;
+}
+.contacts-block__item {
+   margin-bottom: 10px;
+}
+.contacts-block-icons__marker,.contacts-block-icons__telephone,.contacts-block-icons__mail {
+   width: 29px;
+   height: 35px;
+   color: #006cb5;
+   margin-right: 7px;
+}
+.contacts-block__link {
+   display: flex;
+   align-items:center;
+}
+.contacts-block__text {
+   font-size: 16px;
+   color: #006cb5;
+   @include roboto(medium);
+}
+.contacts-block--margin {
+   margin-right: 10px;
+}
+.map {
+   margin-bottom: 70px;
+}

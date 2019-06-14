@@ -1763,6 +1763,44 @@ body {
   width: 100%;
 }
 
+.contacts-block {
+  margin-bottom: 70px;
+}
+
+.contacts-block__item {
+  margin-bottom: 10px;
+}
+
+.contacts-block-icons__marker, .contacts-block-icons__telephone, .contacts-block-icons__mail {
+  width: 29px;
+  height: 35px;
+  color: #006cb5;
+  margin-right: 7px;
+}
+
+.contacts-block__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts-block__text {
+  font-size: 16px;
+  color: #006cb5;
+  font-family: 'robotomedium',Tohoma,sans-serif;
+}
+
+.contacts-block--margin {
+  margin-right: 10px;
+}
+
+.map {
+  margin-bottom: 70px;
+}
+
 .slaider {
   margin-bottom: 35px;
 }
