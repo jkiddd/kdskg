@@ -14,10 +14,12 @@
    display: flex;
    align-items:center;
 }
+
 .contacts-block__text {
-   font-size: 16px;
+   font-size: 15px;
    color: #006cb5;
    @include roboto(medium);
+   display: block;
 }
 .contacts-block--margin {
    margin-right: 10px;
