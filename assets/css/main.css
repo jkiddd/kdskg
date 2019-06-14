@@ -1858,6 +1858,19 @@ body {
   margin-bottom: 10px;
 }
 
+.catalog__list--margin {
+  margin-bottom: 45px;
+}
+
+.catalog--flex {
+  -ms-flex-preferred-size: 46%;
+      flex-basis: 46%;
+}
+
+.catalog--color {
+  color: #2a2929;
+}
+
 .slaider {
   margin-bottom: 35px;
 }
