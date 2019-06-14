@@ -1873,6 +1873,14 @@ body {
 
 .price {
   position: absolute;
+  left: 10px;
+  bottom: 15px;
+  background-color: #05328d;
+  color: white;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
 }
 
 .price--position {
