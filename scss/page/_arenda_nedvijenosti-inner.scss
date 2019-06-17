@@ -13,20 +13,23 @@
 }
 
 .slaider-big__wrap {
-   width: 405px;
-   height: 270px;     
+   max-width: 350px;
+   max-height: 270px;     
 }
 .slaider-big__pic {
-   width: 100%;
-   display: block;
+   max-width: 100%;
+   max-height: 100%;
+   
 }
 .slaider-small__wrap {
-   width: 153px;
+   width: 253px;
    height: 90px;
 }
 
 .slaider-small__pic {
+  
    max-width: 100%;
+   max-height: 100%;
    display: block;
 }
 
