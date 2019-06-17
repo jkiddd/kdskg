@@ -831,6 +831,10 @@ body {
   margin-right: 10px;
 }
 
+ol, ul {
+  list-style-position: inside;
+}
+
 .top-line {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1885,6 +1889,13 @@ body {
 
 .price--position {
   position: relative;
+}
+
+.news-title {
+  color: #2a2929;
+  font-size: 20px;
+  font-family: 'robotomedium',Tohoma,sans-serif;
+  margin-bottom: 15px;
 }
 
 .slaider {
