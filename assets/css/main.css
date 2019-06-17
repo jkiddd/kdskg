@@ -829,6 +829,8 @@ body {
 .main-content__text img {
   float: left;
   margin-right: 10px;
+  max-width: 100%;
+  display: block;
 }
 
 ol, ul {
