@@ -10,6 +10,10 @@
    max-width: 100%;
    display: block;
 }
-ol,ul {
+.main-content__text ol  {
+   list-style-position: inside;
+}
+
+.main-content__text ul {
    list-style-position: inside;
 }
