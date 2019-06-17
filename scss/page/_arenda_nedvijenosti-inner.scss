@@ -1,0 +1,65 @@
+.catalog-block__flexcontainer {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 35px;
+}
+
+.catalog-block__slaider {     
+   margin-right: 15px;
+   flex: 0 1 46%; 
+}
+.slaider-big {
+   margin-bottom: 15px;
+}
+
+.slaider-big__wrap {
+   width: 405px;
+   height: 270px;     
+}
+.slaider-big__pic {
+   width: 100%;
+   display: block;
+}
+.slaider-small__wrap {
+   width: 153px;
+   height: 90px;
+}
+
+.slaider-small__pic {
+   max-width: 100%;
+   display: block;
+}
+
+// стили описание 
+.catalog-block__desc-text {
+   margin-bottom: 15px;
+}
+.catalog-block__title {
+   font-size: 20px;
+   color: black;
+   @include roboto(bold);
+   margin-bottom: 15px;
+}
+.catalog-block__name,.catalog-block__text {
+   font-size: 16px;
+   color: #6f6a6a;
+   @include roboto(bold);
+}
+.catalog-block__name {
+  display: inline-block;
+  width: 145px;
+}
+.catalog-block__desc-price {
+   margin-bottom: 25px;
+}
+.price-b {
+   font-size: 25px;
+   @include roboto(bold);
+   color: #05328d;
+   margin-right: 10px;
+}
+.price-reuslt {
+   font-size: 30px;
+   @include roboto(bold);
+   color: #05328d;
+}
