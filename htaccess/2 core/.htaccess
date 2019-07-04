@@ -1,0 +1,42 @@
+server {
+	server_name test2.kds.kg;
+	charset utf-8;
+	error_log /var/log/nginx/modx.error.log;
+	access_log /var/log/nginx/modx.access.log;
+	root /var/www/test2.kds.kg;
+	client_max_body_size 30M;
+	index index.php;
+
+	location / {
+		try_files $uri $uri/ @rewrite;
+	}
+
+	location @rewrite {
+		rewrite ^/(.*)$ /index.php?q=$1;
+	}
+
+	location ~ \.php$ {
+		try_files $uri =404;
+		fastcgi_split_path_info ^(.+\.php)(.*)$;
+		fastcgi_pass unix:/run/php-fpm/php-fpm.sock;
+		fastcgi_index index.php;
+		fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+		include /etc/nginx/fastcgi_params;
+		fastcgi_ignore_client_abort on;
+		fastcgi_param SERVER_NAME $http_host;
+	}
+
+	location ~* ^/core/ {
+		deny all;
+	}
+
+	location ~ /\.ht {
+		deny all;
+	}
+
+	location ~* ^.+\.(jpg|jpeg|gif|css|png|js|ico|bmp)$ {
+		access_log off;
+		expires 10d;
+		break;
+	}
+}
