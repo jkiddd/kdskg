@@ -241,11 +241,11 @@
     max-width: 300px;
   }
 
-  .slaider__title {
-    font-size: 25px;
-    bottom: 40px;
-    left: 21px;
-  }
+  // .slaider__title {
+  //   font-size: 25px;
+  //   bottom: 40px;
+  //   left: 21px;
+  // }
 
   // контентая часть 
 
@@ -271,17 +271,18 @@
   }
 
   // новости 
+  .new__link { 
+    flex-direction: column;
+  }
   .new__wrapper-pic {
-    display: none;
+    align-self: center;
+    margin-top: 15px;
   }
 
   .new__item {
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
   }
 
-  .new__pic {
-    display: none;
-  }
 
   .new-desc__block {
     flex-basis: 100%;
@@ -345,11 +346,11 @@
   }
 
   //  слайдер
-  .slaider__title {
-    font-size: 22px;
-    bottom: 45px;
-    left: 15px;
-  }
+  // .slaider__title {
+  //   font-size: 22px;
+  //   bottom: 45px;
+  //   left: 15px;
+  // }
 
   .slaider__wrapper {
     height: 190px;
